@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmvp.myapplication.MainActivity"
+    android:background="@drawable/marcianito_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:text="@string/bienvenida"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:text="@string/iniciar"
+        android:background="@color/colorBg"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="211dp" />
+</android.support.constraint.ConstraintLayout>
